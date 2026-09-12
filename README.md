@@ -2,7 +2,6 @@
 Final project from Masai School
 import sqlite3, random, csv
 from datetime import date, timedelta
-
 random.seed(42)
 
 conn = sqlite3.connect("bigbasket_capstone.db")
